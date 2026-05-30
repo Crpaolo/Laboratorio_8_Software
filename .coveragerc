@@ -1,0 +1,13 @@
+[run]
+relative_files = true
+omit =
+    tests/*
+    .venv/*
+    producer.py
+    consumer.py
+
+[report]
+include =
+    application/*
+    domain/*
+    infrastructure/*
